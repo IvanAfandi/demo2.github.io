@@ -52,7 +52,7 @@ img {
 
 .gameplay-container {
   width: 343px;
-  height: fit-content;
+  height: auto;
   background-color: #ffffff;
   position: relative;
   margin: 0 auto;
