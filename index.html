@@ -131,6 +131,8 @@ https://github.com/andreruffert/scratchie.js
           console.log(filledInPixels + "%");
           if (filledInPixels > 50) {
             canvas.parentNode.removeChild(canvas);
+            var img = document.getElementById("reward");
+            img.src = "reward-1.png";
             confetti.start(1200, 50, 150);
             var img = document.getElementById("reward");
             img.src = "trophy.png";

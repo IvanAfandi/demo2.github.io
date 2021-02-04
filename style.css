@@ -75,5 +75,9 @@ img {
   margin: 24px auto;
 }
 
-.reward {
-}
+/* #reward {
+  -webkit-transition-property: all;
+  transition-property: all;
+  transition-duration: 2s;
+  animation-delay: 5s;
+} */
